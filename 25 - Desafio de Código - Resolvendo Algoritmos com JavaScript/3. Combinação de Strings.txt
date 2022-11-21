@@ -1,0 +1,56 @@
+Resolvendo Algoritmos com JavaScript
+3 / 5 - Combinação de Strings
+ Strings
+ Básico
+
+Desafio
+Crie um algoritmo que receba dois inputs que sejam strings e combine-as alternando as letras de cada string. 
+
+Deve começar pela primeira letra da primeira string, seguido pela primeira letra da segunda string, em seguida pela segunda letra da primeira string e continuar dessa forma sucessivamente.
+
+As letras restantes da cadeia mais longa devem ser adicionadas ao fim da string resultante e retornada.
+
+Entrada
+A entrada contém vários casos de teste. A primeira linha contém um inteiro N que indica a quantidade de casos de teste que vem a seguir. Cada caso de teste é composto por uma linha que contém duas cadeias de caracteres, cada cadeia de caracteres contém entre 1 e 50 caracteres inclusive.
+
+Saída
+Combine as duas cadeias de caracteres da entrada como mostrado no exemplo abaixo e exiba a cadeia resultante.
+
+ 
+Exemplo de Entrada	Exemplo de Saída
+2					aBAb
+aA Bb				abab
+aa bb	
+
+
+
+
+
+
+Todas as entradas e saída dos algoritmos são utilizados o STDIN e STDOUT de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+JavaScript
+
+Em JavaScript as funções de STDIN e STDOUT respectivamente sãogets e console.log, a função gets é implementada internamente para auxiliar a entrada dos dados.
+
+Exemplo:
+let line = gets(); // Retorna a próxima linha de entrada
+console.log(line); // Imprime o dado
+
+Java
+
+Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar BufferedReader para o STDIN e o System.out.println para o STDOUT.
+
+Exemplo:
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entrada
+int a = Integer.parseInt(st.nextToken());
+System.out.println(a); // Imprime o dado
+
+Python
+
+Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar sys.stdin.readline para o STDIN e o print para o STDOUT.
+
+Exemplo:
+import sys
+a = int(sys.stdin.readline()) // Lê a linha de entrada
+print(a); // Imprime o dado

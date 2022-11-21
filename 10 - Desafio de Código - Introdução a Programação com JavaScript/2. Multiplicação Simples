@@ -1,0 +1,60 @@
+Resolvendo Algoritmos com JavaScript
+2 / 3 - Multiplicação Simples
+ Princípios Básicos
+ Básico
+
+
+Desafio
+Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável PROD, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo).   
+
+Entrada
+A entrada contém 2 valores inteiros.
+
+Saída
+Exiba a variável PROD conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade.
+
+ 
+Exemplos de Entrada		Exemplos de Saída
+3						PROD = 27
+9
+
+-30						PROD = -300
+10
+
+0						PROD = 0
+9
+
+
+
+
+
+
+
+
+Todas as entradas e saída dos algoritmos são utilizados o STDIN e STDOUT de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+JavaScript
+
+Em JavaScript as funções de STDIN e STDOUT respectivamente sãogets e console.log, a função gets é implementada internamente para auxiliar a entrada dos dados.
+
+Exemplo:
+let line = gets(); // Retorna a próxima linha de entrada
+console.log(line); // Imprime o dado
+
+Java
+
+Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar BufferedReader para o STDIN e o System.out.println para o STDOUT.
+
+Exemplo:
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entrada
+int a = Integer.parseInt(st.nextToken());
+System.out.println(a); // Imprime o dado
+
+Python
+
+Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar sys.stdin.readline para o STDIN e o print para o STDOUT.
+
+Exemplo:
+import sys
+a = int(sys.stdin.readline()) // Lê a linha de entrada
+print(a); // Imprime o dado

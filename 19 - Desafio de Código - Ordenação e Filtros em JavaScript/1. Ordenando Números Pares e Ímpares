@@ -1,0 +1,75 @@
+Resolvendo Algoritmos com JavaScript
+1 / 5 - Ordenando Números Pares e Ímpares
+ Estrutura de Dados
+ Básico
+
+
+Desafio
+Crie um programa onde você receberá valores inteiros não negativos como entrada.
+
+Ordene estes valores de acordo com o seguinte critério:
+
+Primeiro os Pares
+Depois os Ímpares
+Você deve exibir os pares em ordem crescente e na sequência os ímpares em ordem decrescente.
+
+Entrada
+A primeira linha de entrada contém um único inteiro positivo N (1 < N < 10000) Este é o número de linhas de entrada que vem logo a seguir. As próximas N linhas terão, cada uma delas, um valor inteiro não negativo.
+
+Saída
+Exiba todos os valores lidos na entrada segundo a ordem apresentada acima. Cada número deve ser impresso em uma linha, conforme exemplo de saída abaixo.
+
+ 
+Exemplo de Entrada		Exemplo de Saída
+10						4
+4						32
+32						34
+34						98
+543						654
+3456					3456
+654						6789
+567						567
+87						543
+6789					87
+98
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Todas as entradas e saída dos algoritmos são utilizados o STDIN e STDOUT de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+JavaScript
+
+Em JavaScript as funções de STDIN e STDOUT respectivamente sãogets e console.log, a função gets é implementada internamente para auxiliar a entrada dos dados.
+
+Exemplo:
+let line = gets(); // Retorna a próxima linha de entrada
+console.log(line); // Imprime o dado
+
+Java
+
+Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar BufferedReader para o STDIN e o System.out.println para o STDOUT.
+
+Exemplo:
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entrada
+int a = Integer.parseInt(st.nextToken());
+System.out.println(a); // Imprime o dado
+
+Python
+
+Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar sys.stdin.readline para o STDIN e o print para o STDOUT.
+
+Exemplo:
+import sys
+a = int(sys.stdin.readline()) // Lê a linha de entrada
+print(a); // Imprime o dado

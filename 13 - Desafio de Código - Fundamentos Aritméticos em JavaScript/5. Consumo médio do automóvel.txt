@@ -1,0 +1,70 @@
+Resolvendo Algoritmos com JavaScript
+5 / 5 - Consumo médio do automóvel
+ Princípios Básicos
+ Básico
+
+
+
+Desafio
+Você deve calcular o consumo médio de um automóvel onde será informada a distância total percorrida (em Km) e o total de combustível consumido (em litros).
+
+Entrada
+Você receberá dois valores: um valor inteiro X com a distância total percorrida (em Km), e um valor real Y que representa o total de combustível consumido, com um dígito após o ponto decimal.
+
+Saída
+Exiba o valor que representa o consumo médio do automóvel (3 casas após a vírgula), incluindo no final a mensagem "km/l".
+
+ 
+Exemplo de Entrada	Exemplo de Saída
+500					14.286 km/l
+35.0
+
+2254				18.119 km/l
+124.4
+
+4554				9.802 km/l
+464.6
+
+
+let x = parseInt(gets());
+let y = parseFloat(gets());
+
+// TODO Realize o cálculo do consumo médio do automóvel.
+const consumoMedio = x/y;
+
+console.log(`${consumoMedio.toFixed(3)} km/l`);
+
+
+
+
+
+
+
+
+Todas as entradas e saída dos algoritmos são utilizados o STDIN e STDOUT de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+JavaScript
+
+Em JavaScript as funções de STDIN e STDOUT respectivamente sãogets e console.log, a função gets é implementada internamente para auxiliar a entrada dos dados.
+
+Exemplo:
+let line = gets(); // Retorna a próxima linha de entrada
+console.log(line); // Imprime o dado
+
+Java
+
+Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar BufferedReader para o STDIN e o System.out.println para o STDOUT.
+
+Exemplo:
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entrada
+int a = Integer.parseInt(st.nextToken());
+System.out.println(a); // Imprime o dado
+
+Python
+
+Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar sys.stdin.readline para o STDIN e o print para o STDOUT.
+
+Exemplo:
+import sys
+a = int(sys.stdin.readline()) // Lê a linha de entrada
+print(a); // Imprime o dado

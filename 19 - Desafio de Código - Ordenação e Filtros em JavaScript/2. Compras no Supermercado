@@ -1,0 +1,66 @@
+Resolvendo Algoritmos com JavaScript
+2 / 5 - Compras no Supermercado
+ Estrutura de Dados
+ Intermediário
+
+
+Desafio
+Pedro trabalha sempre até tarde todos os dias, com isso tem pouco tempo tempo para as tarefas domésticas. Para economizar tempo ele faz a lista de compras do supermercado em um aplicativo e costuma anotar cada item na mesma hora que percebe a falta dele em casa.
+
+O problema é que o aplicativo não exclui itens duplicados, como Pedro anota o mesmo item mais de uma vez e a lista acaba ficando extensa. Sua tarefa é melhorar o aplicativo de notas desenvolvendo um código que exclua os itens duplicados da lista de compras e que os ordene alfabeticamente.
+
+Entrada
+A primeira linha de entrada contém um inteiro N (N < 100) com a quantidade de casos de teste que vem a seguir, ou melhor, a quantidade de listas de compras para organizar. Cada lista de compra consiste de uma única linha que contém de 1 a 1000 itens ou palavras compostas apenas de letras minúsculas (de 1 a 20 letras), sem acentos e separadas por um espaço.
+
+Saída
+A saída contém N linhas, cada uma representando uma lista de compra, sem os itens repetidos e em ordem alfabética.
+
+ 
+Exemplo de Entrada					Exemplo de Saída
+2									carne laranja picles suco
+carne laranja suco picles 			suco
+laranja picles						laranja pera
+laranja pera laranja pera 
+pera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Todas as entradas e saída dos algoritmos são utilizados o STDIN e STDOUT de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+JavaScript
+
+Em JavaScript as funções de STDIN e STDOUT respectivamente sãogets e console.log, a função gets é implementada internamente para auxiliar a entrada dos dados.
+
+Exemplo:
+let line = gets(); // Retorna a próxima linha de entrada
+console.log(line); // Imprime o dado
+
+Java
+
+Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar BufferedReader para o STDIN e o System.out.println para o STDOUT.
+
+Exemplo:
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entrada
+int a = Integer.parseInt(st.nextToken());
+System.out.println(a); // Imprime o dado
+
+Python
+
+Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar sys.stdin.readline para o STDIN e o print para o STDOUT.
+
+Exemplo:
+import sys
+a = int(sys.stdin.readline()) // Lê a linha de entrada
+print(a); // Imprime o dado
