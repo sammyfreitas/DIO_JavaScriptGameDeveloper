@@ -28,6 +28,7 @@ Bootcamp JavaScript Game Developer da [Digital Innovation One](https://digitalin
 Aprenda de forma divertida a criar jogos com JavaScript para inciar a sua carreira em desenvolvimento front-end e se transformar em um dev de alto nível.
 
 <h3>👨‍💻 Cursos</h3>
+
 * Curso: Bem-vindo à DIO<br>
  Básico
 肋 1 hrs
@@ -83,6 +84,7 @@ Aprenda de forma divertida a criar jogos com JavaScript para inciar a sua carrei
 
 
 <h3>🚀 Desafios de Projeto</h3>
+
 * Desafio de projeto: <a href="https://github.com/sammyfreitas/JavaScriptGameDeveloper/tree/main/05%20-%20Recriando%20a%20p%C3%A1gina%20inicial%20do%20Instagram/">Recriando a Página Inicial do Instagram</a><br/>
  Intermediário
 肋 1 hrs
